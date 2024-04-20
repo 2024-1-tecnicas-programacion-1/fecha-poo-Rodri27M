@@ -11,8 +11,12 @@ public class Principal {
         int ano = sc.nextInt();
         Fecha fecha = new Fecha(dia, mes, ano);
         Fecha valida = new Fecha(dia, mes, ano);
-        System.out.println(fecha.fechaLarga());
         System.out.println(valida.validarFecha());
-   }
+        if(valida.validarFecha() == true){
+            System.out.println(fecha.fechaLarga());
+            
+        }
+        }
+   
 
 }
