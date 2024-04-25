@@ -8,9 +8,9 @@ public class Fecha {
   private int dia;
   private int mes;
   private int ano;
-public static void main(String[] args){
-    
-}
+//public static void main(String[] args){
+//  Dentro de las clases no puede ir esta clase de metodos    
+//}
   public Fecha(int dia, int mes, int ano){
     this.dia = dia;
     this.mes = mes;
@@ -44,7 +44,7 @@ public static void main(String[] args){
       return false;
       
      }
-     public String mesLetra(){ // COMPLEJIDAD LINEAL O(N)
+     public String mesLetra(){ // COMPLEJIDAD LINEAL O(N): ESTA ES UN METODO DE COMPLEJIDAD TEMPORA O(1) Y NO LINEAL 
          Map<Integer, String> meses = new HashMap<>();  
          meses.put(1, "enero");
          meses.put(2, "febrero");

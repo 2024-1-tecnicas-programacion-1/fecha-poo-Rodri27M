@@ -14,9 +14,7 @@ public class Principal {
         System.out.println(valida.validarFecha());
         if(valida.validarFecha() == true){
             System.out.println(fecha.fechaLarga());
-            
-        }
-        }
-   
-
+ 
+         }
+    }
 }
